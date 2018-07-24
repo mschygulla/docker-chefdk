@@ -1,8 +1,8 @@
-FROM ubuntu:14.04
+FROM ubuntu:18.04
 
-ARG CHEFDK_VERSION=1.1.16
-ENV CHEFDK_DOWNLOAD_URL https://packages.chef.io/files/stable/chefdk/${CHEFDK_VERSION}/ubuntu/14.04/chefdk_${CHEFDK_VERSION}-1_amd64.deb
-ENV CHEFDK_DOWNLOAD_SHA256 7a1bed7f6eae3ae26694f9d3f47ce76d5e0cbbaba72dafcbc175e89ba0ac6dd9
+ARG CHEFDK_VERSION=3.1.0
+ENV CHEFDK_DOWNLOAD_URL https://packages.chef.io/files/stable/chefdk/${CHEFDK_VERSION}/ubuntu/18.04/chefdk_${CHEFDK_VERSION}-1_amd64.deb
+ENV CHEFDK_DOWNLOAD_SHA256 ea5eaf7f729f217f5a33722d5b0a8b2aab6acd8f1f096a474eb44e5419bf3144
 
 ENV DEBIAN_FRONTEND noninteractive
 

@@ -1,7 +1,7 @@
 REPO = docker.io
 NS = mschygulla
 NAME = chefdk
-VERSION ?= 1.1.16
+VERSION ?= 3.1.0
 SHELL := /bin/bash
 
 .PHONY: build test push clean
